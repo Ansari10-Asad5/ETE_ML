@@ -12,7 +12,7 @@ def get_requirements(file_path:str)->List[str]:
         if '-e .' in requirements:
             requirements.remove('-e .')
     return requirements
-print(get_requirements('requirements.txt'))
+
 setup(
     name='MLProject',
     version='0.0.1',
