@@ -9,6 +9,10 @@ __pycache__/
 # Distribution / packaging
 .Python
 .idea
+Scripts
+share
+etc
+xgboost
 build/
 develop-eggs/
 dist/
