@@ -1,0 +1,11 @@
+[2023-09-06 11:19:41,867] 30 root -INFO Entered the Data Ingestion method or component
+[2023-09-06 11:19:41,872] 33 root -INFO Read the Data as Dataframe
+[2023-09-06 11:19:41,878] 39 root -INFO Train Test Split Initiated
+[2023-09-06 11:19:41,885] 46 root -INFO Data Ingestion is completed
+[2023-09-06 11:19:41,908] 64 root -INFO Train and Test data got read
+[2023-09-06 11:19:41,908] 66 root -INFO Obtaining preprocessing object
+[2023-09-06 11:19:41,908] 44 root -INFO Transformation of Categorical ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course'] columns
+[2023-09-06 11:19:41,908] 45 root -INFO Transformation of Numerical ['writing_score', 'reading_score'] columns
+[2023-09-06 11:19:41,911] 80 root -INFO Applying preprocessing object on train and test Dataframes
+[2023-09-06 11:19:41,931] 92 root -INFO Saved Preprocessing object
+[2023-09-06 11:19:41,936] 33 root -INFO Splitting into Train and Test is done
