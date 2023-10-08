@@ -1,0 +1,11 @@
+[2023-09-20 22:15:26,974] 187 werkzeug -WARNING  * Debugger is active!
+[2023-09-20 22:15:26,979] 187 werkzeug -INFO  * Debugger PIN: 137-557-671
+[2023-09-20 22:15:28,707] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:15:28] "[33mGET /predictdata%20method=post?Gender=male&ethnicity=Group+C&parental_level_of_education=some+college&lunch=standard&test_preparation_course=completed&reading_score=50&writing_score=40 HTTP/1.1[0m" 404 -
+[2023-09-20 22:15:32,976] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:15:32] "GET / HTTP/1.1" 200 -
+[2023-09-20 22:15:40,513] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:15:40] "GET /predictdata HTTP/1.1" 200 -
+[2023-09-20 22:15:52,392] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:15:52] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2023-09-20 22:15:52,479] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:15:52] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2023-09-20 22:15:52,515] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:15:52] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2023-09-20 22:15:52,534] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:15:52] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-09-20 22:15:52,614] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:15:52] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-09-20 22:17:54,213] 187 werkzeug -INFO  * Detected change in 'D:\\My\\My_Projects\\ML_Projects\\ETE_ML\\src\\pipeline\\predict_pipeline.py', reloading

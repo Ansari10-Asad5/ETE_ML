@@ -1,0 +1,8 @@
+[2023-09-20 21:51:11,113] 187 werkzeug -WARNING  * Debugger is active!
+[2023-09-20 21:51:11,118] 187 werkzeug -INFO  * Debugger PIN: 137-557-671
+[2023-09-20 21:51:16,696] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:51:16] "[35m[1mGET /predictiondata HTTP/1.1[0m" 500 -
+[2023-09-20 21:51:16,821] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:51:16] "GET /predictiondata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2023-09-20 21:51:16,856] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:51:16] "GET /predictiondata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2023-09-20 21:51:16,928] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:51:16] "GET /predictiondata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2023-09-20 21:51:17,025] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:51:17] "[36mGET /predictiondata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-09-20 21:51:36,077] 187 werkzeug -INFO  * Detected change in 'D:\\My\\My_Projects\\ML_Projects\\ETE_ML\\app.py', reloading

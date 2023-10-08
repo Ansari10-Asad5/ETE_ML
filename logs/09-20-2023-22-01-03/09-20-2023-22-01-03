@@ -1,0 +1,99 @@
+[2023-09-20 22:01:16,302] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:01:16] "[33mGET /predictiondata HTTP/1.1[0m" 404 -
+[2023-09-20 22:01:22,567] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:01:22] "GET /predictdata HTTP/1.1" 200 -
+[2023-09-20 22:01:34,538] 1414 app -ERROR Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\app.py", line 25, in predict_datapoint
+    data = CustomData(
+           ^^^^^^^^^^^
+TypeError: CustomData() takes no arguments
+[2023-09-20 22:01:34,542] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:01:34] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2023-09-20 22:01:54,816] 1414 app -ERROR Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\app.py", line 25, in predict_datapoint
+    data = CustomData(
+           ^^^^^^^^^^^
+TypeError: CustomData() takes no arguments
+[2023-09-20 22:01:54,818] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:01:54] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2023-09-20 22:02:07,417] 1414 app -ERROR Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\app.py", line 25, in predict_datapoint
+    data = CustomData(
+           ^^^^^^^^^^^
+TypeError: CustomData() takes no arguments
+[2023-09-20 22:02:07,418] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:02:07] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2023-09-20 22:11:13,563] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:11:13] "GET /predictdata HTTP/1.1" 200 -
+[2023-09-20 22:11:30,775] 1414 app -ERROR Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\app.py", line 25, in predict_datapoint
+    gender = request.form.get("Gender"),
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CustomData() takes no arguments
+[2023-09-20 22:11:30,777] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:11:30] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2023-09-20 22:12:00,534] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:12:00] "GET /predictdata HTTP/1.1" 200 -
+[2023-09-20 22:12:14,952] 1414 app -ERROR Exception on /predictdata [POST]
+Traceback (most recent call last):
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\My\My_Projects\ML_Projects\ETE_ML\app.py", line 25, in predict_datapoint
+    gender = request.form.get("Gender"),
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: CustomData() takes no arguments
+[2023-09-20 22:12:14,954] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:12:14] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -

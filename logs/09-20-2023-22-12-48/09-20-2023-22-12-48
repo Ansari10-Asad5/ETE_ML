@@ -1,0 +1,4 @@
+[2023-09-20 22:12:49,099] 187 werkzeug -WARNING  * Debugger is active!
+[2023-09-20 22:12:49,106] 187 werkzeug -INFO  * Debugger PIN: 137-557-671
+[2023-09-20 22:12:58,183] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:12:58] "GET /predictdata HTTP/1.1" 200 -
+[2023-09-20 22:13:10,037] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 22:13:10] "[33mGET /predictdata%20method=post?Gender=female&ethnicity=Group+A&parental_level_of_education=high+school&lunch=free/reduced&test_preparation_course=none&reading_score=50&writing_score=16 HTTP/1.1[0m" 404 -

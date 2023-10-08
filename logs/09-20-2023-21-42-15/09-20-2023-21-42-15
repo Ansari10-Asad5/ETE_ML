@@ -1,0 +1,12 @@
+[2023-09-20 21:42:16,070] 187 werkzeug -WARNING  * Debugger is active!
+[2023-09-20 21:42:16,087] 187 werkzeug -INFO  * Debugger PIN: 137-557-671
+[2023-09-20 21:42:33,141] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:42:33] "GET / HTTP/1.1" 200 -
+[2023-09-20 21:42:33,357] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:42:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-09-20 21:44:49,448] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:44:49] "GET /predictiondata HTTP/1.1" 200 -
+[2023-09-20 21:45:05,754] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:45:05] "[33mGET /predictiondata%20method=post?Gender=male&ethnicity=Group+A&parental_level_of_education=master's+degree&lunch=free/reduced&test_preparation_course=completed&reading_score=70&writing_score= HTTP/1.1[0m" 404 -
+[2023-09-20 21:45:15,136] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:45:15] "[33mGET /predictiondata%20method=post?Gender=male&ethnicity=Group+A&parental_level_of_education=master's+degree&lunch=free/reduced&test_preparation_course=completed&reading_score=70&writing_score=35 HTTP/1.1[0m" 404 -
+[2023-09-20 21:50:05,659] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:50:05] "GET /predictiondata HTTP/1.1" 200 -
+[2023-09-20 21:50:06,707] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:50:06] "GET /predictiondata HTTP/1.1" 200 -
+[2023-09-20 21:50:17,442] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:50:17] "GET /predictiondata HTTP/1.1" 200 -
+[2023-09-20 21:50:29,501] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:50:29] "[33mGET /predictiondata%20method=post?Gender=male&ethnicity=Group+B&parental_level_of_education=high+school&lunch=free/reduced&test_preparation_course=completed&reading_score=70&writing_score=35 HTTP/1.1[0m" 404 -
+[2023-09-20 21:51:08,525] 187 werkzeug -INFO  * Detected change in 'D:\\My\\My_Projects\\ML_Projects\\ETE_ML\\app.py', reloading

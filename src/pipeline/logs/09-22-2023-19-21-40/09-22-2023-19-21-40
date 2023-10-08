@@ -1,0 +1,4 @@
+[2023-09-22 19:21:42,480] 27 root -INFO Entered the Data Ingestion method or component
+[2023-09-22 19:21:42,485] 30 root -INFO Read the Data as Dataframe
+[2023-09-22 19:21:42,490] 36 root -INFO Train Test Split Initiated
+[2023-09-22 19:21:42,498] 43 root -INFO Data Ingestion is completed

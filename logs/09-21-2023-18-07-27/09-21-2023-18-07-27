@@ -1,0 +1,8 @@
+[2023-09-21 18:07:27,500] 187 werkzeug -WARNING  * Debugger is active!
+[2023-09-21 18:07:27,505] 187 werkzeug -INFO  * Debugger PIN: 137-557-671
+[2023-09-21 18:07:30,062] 187 werkzeug -INFO 127.0.0.1 - - [21/Sep/2023 18:07:30] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2023-09-21 18:07:30,163] 187 werkzeug -INFO 127.0.0.1 - - [21/Sep/2023 18:07:30] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2023-09-21 18:07:30,194] 187 werkzeug -INFO 127.0.0.1 - - [21/Sep/2023 18:07:30] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2023-09-21 18:07:30,252] 187 werkzeug -INFO 127.0.0.1 - - [21/Sep/2023 18:07:30] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-09-21 18:07:30,404] 187 werkzeug -INFO 127.0.0.1 - - [21/Sep/2023 18:07:30] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2023-09-21 18:08:20,820] 187 werkzeug -INFO  * Detected change in 'D:\\My\\My_Projects\\ML_Projects\\ETE_ML\\src\\pipeline\\predict_pipeline.py', reloading

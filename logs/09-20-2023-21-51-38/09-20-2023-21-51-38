@@ -1,0 +1,3 @@
+[2023-09-20 21:51:38,885] 187 werkzeug -WARNING  * Debugger is active!
+[2023-09-20 21:51:38,890] 187 werkzeug -INFO  * Debugger PIN: 137-557-671
+[2023-09-20 21:51:38,963] 187 werkzeug -INFO 127.0.0.1 - - [20/Sep/2023 21:51:38] "[33mGET /predictiondata HTTP/1.1[0m" 404 -

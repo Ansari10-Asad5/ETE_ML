@@ -1,0 +1,12 @@
+[2023-09-22 18:20:21,383] 27 root -INFO Entered the Data Ingestion method or component
+[2023-09-22 18:20:21,389] 30 root -INFO Read the Data as Dataframe
+[2023-09-22 18:20:21,395] 36 root -INFO Train Test Split Initiated
+[2023-09-22 18:20:21,503] 43 root -INFO Data Ingestion is completed
+[2023-09-22 18:20:21,523] 64 root -INFO Train and Test data got read
+[2023-09-22 18:20:21,523] 66 root -INFO Obtaining preprocessing object
+[2023-09-22 18:20:21,523] 44 root -INFO Transformation of Categorical ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course'] columns
+[2023-09-22 18:20:21,523] 45 root -INFO Transformation of Numerical ['writing_score', 'reading_score'] columns
+[2023-09-22 18:20:21,525] 78 root -INFO Applying preprocessing object on train and test Dataframes
+[2023-09-22 18:20:21,546] 90 root -INFO Saved Preprocessing object
+[2023-09-22 18:20:21,547] 33 root -INFO Splitting into Train and Test is done
+[2023-09-22 18:20:21,563] 94 root -INFO Best model found!
